@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bilbo+Swash+Caps&family=Carattere&family=DM+Serif+Text:ital@0;1&family=Hind:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luxurious+Script&family=Meow+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=My+Soul&family=Pinyon+Script&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .Gucci{
+    display: block;
+    margin: auto;
+    font-family: "DM Serif Text", serif;
+    font-size: 0px;
+    font-weight: lighter;
+    letter-spacing: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+  } */
+body {
+    background-color: #ffffff;
+}
+#Home {
+    height: 100vh;
+    width: 100%;
+    background-color: #f8f9fa;
+    background-image: url(./assets/HP_Hero-FullBleed-Desktop_Gucci-GiftGiving-Nov24-ASE-240720-0036-6378_001_Default.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.content {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.content h1 {
+    color: white;
+}
+.img-cover{
+    object-fit: cover;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+.video-con {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-con video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.service-vid-card {
+    height: 400px;
+    background-color: black;
+    overflow: hidden;
+}
+.service-vid-card video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.service-text-card {
+    padding: 1rem 0;
+}
+.icon-cover{
+    height:50px;
+    width:100px;
+}
+
+
+/* Default styling (largest screens) */
+.Gucci {
+    display: block;
+    margin: auto;
+    font-family: "DM Serif Text", serif;
+    font-size:250px; /* Start with the largest size */
+    font-weight: lighter;
+    letter-spacing: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+/* Medium screens */
+@media (max-width: 1024px) {
+    .Gucci {
+        font-size: 200px; /* Adjust to slightly smaller */
+        letter-spacing: 30px; /* Reduce letter-spacing proportionally */
+    }
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+    .Gucci {
+        font-size: 150px;
+        letter-spacing: 20px;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 320px) {
+    .Gucci {
+        font-size: 80px;
+        letter-spacing: 10px;
+        
+    }
+}
+
+
+
